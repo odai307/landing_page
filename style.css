@@ -33,6 +33,7 @@ ul {
 .header-content-container {
     display: flex;
     flex-wrap: wrap;
+    flex: 1;
 }
 
 .hero-container {
@@ -42,6 +43,8 @@ ul {
     width: 50%;
     padding: 20px;
     align-items: center;
+    justify-content: center;
+    padding: 50px;
 }
 
 p.title {
@@ -69,14 +72,21 @@ button#hero-signup {
 }
 
 .image-container {
-    height: 280px;
-    width: 500px;
-    background-color: rgb(99, 100, 110);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     flex-shrink: 0;
+    flex: 1;
+}
+
+.image {
+    height: 250px;
+    width: 500px;
+    background-color: rgb(99, 100, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .information-header-text {
